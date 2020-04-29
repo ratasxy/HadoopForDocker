@@ -1,0 +1,13 @@
+export HADOOP_HOME=/usr/local/hadoop
+export PATH=$PATH:$HADOOP_HOME/bin
+export PATH=$PATH:$HADOOP_HOME/sbin
+export HADOOP_MAPRED_HOME=${HADOOP_HOME}
+export HADOOP_COMMON_HOME=${HADOOP_HOME}
+export HADOOP_HDFS_HOME=${HADOOP_HOME}
+export YARN_HOME=${HADOOP_HOME}
+export HDFS_NAMENODE_USER="hadoop"
+export HDFS_DATANODE_USER="hadoop"
+export HDFS_SECONDARYNAMENODE_USER="hadoop"
+export YARN_RESOURCEMANAGER_USER="hadoop"
+export YARN_NODEMANAGER_USER="hadoop"
+export JAVA_HOME=/usr/local/openjdk-8
